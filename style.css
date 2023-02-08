@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: white;
+    background: url(https://us.123rf.com/450wm/sanek13744/sanek137441712/sanek13744171200475/92331927-para-hacer-la-lista-del-icono-con-el-texto-dibujado-a-mano-de-fondo-transparente-ilustraci%C3%B3n-de-vect.jpg?ver=6) center;
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    text-align: center;
+    color: darkslategrey;
+    text-decoration: underline;
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border: solid 5px black;
+    border-radius: 20px;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .btn-delete {
+    border: none;
+    background-color: rgb(255, 191, 46);
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 3%;
+    font-size: 1.2rem;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: #e31746;
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: rgb(0, 153, 94);
+    font-size: 1.4rem;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: rgb(0, 113, 60);
+  }
+  
+  .empty {
+    color: darkslategrey;
+    text-align: center;
+  }
